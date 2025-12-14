@@ -54,14 +54,14 @@ sudo systemctl restart tor
 Clone the repo:
 
 ```
-git clone https://github.com/YOURNAME/ghostwalker-tor-burner.git
-cd ghostwalker-tor-burner
-chmod +x ghostwalker-burner.sh
+git clone https://github.com/YOURNAME/session-burner.git
+cd session-burner
+chmod +x session-burner.sh
 ```
 
 ▶️ Usage
 ```
-./ghostwalker-burner.sh
+./session-burner.sh
 ```
 
 
