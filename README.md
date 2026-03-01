@@ -35,11 +35,15 @@ sudo systemctl start tor
 curl --socks5-hostname 127.0.0.1:9050 https://check.torproject.org
 ```
 
-(Optional) Enable Tor Control Port
+(Optional) Enable Tor Control Port or
+When you encountered Connection Refused.
 
-Edit:
+Edit the config: 
 ```
 sudo nano /etc/tor/torrc
+```
+and Uncomment (remove the #) from these lines:
+```
 ControlPort 9051
 CookieAuthentication 1
 ```
